@@ -281,9 +281,9 @@ async def start_command(client: Client, message: Message):
                 [InlineKeyboardButton("😊 About Me", callback_data="about"),
                  InlineKeyboardButton("🔒 Close", callback_data="close")],
                 [InlineKeyboardButton('BUY PREMIUM', callback_data='buy_prem')],
-                [InlineKeyboardButton('⛩️ JAV', url='https://t.me/Javpostr'),
-                 InlineKeyboardButton('⚡️ Support', url='https://t.me/javposts')],
-                [InlineKeyboardButton('🌐 Source Code', url='https://t.me/rohit_1888')]
+                [InlineKeyboardButton('⛩️ BACKUP', url='https://t.me/DD_FREE_DISHH'),
+                 InlineKeyboardButton('⚡️ Support', url='https://t.me/Chat_080robot')],
+                [InlineKeyboardButton('🌐 Source Code', url='https://t.me/provider_og')]
             ]
         )
 
@@ -563,7 +563,7 @@ async def help(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton("🤖 Oᴡɴᴇʀ", url=f"tg://openmessage?user_id={OWNER_ID}"), 
-            InlineKeyboardButton("🥰 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/rohit1888")
+            InlineKeyboardButton("🥰 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/provider_og")
         ]
     ]
     
