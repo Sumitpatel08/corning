@@ -21,10 +21,10 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002213113260"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7645440087"))
 
 #Port
-PORT = os.environ.get("PORT", "7247")
+PORT = os.environ.get("PORT", "6547")
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sunitverma080:mg0Pd4Pdf0UD0Ou8@merabot1.dcduprk.mongodb.net/?retryWrites=true&w=majority&appName=merabot1")
-DB_NAME = os.environ.get("DATABASE_NAME", "naughty")
+DB_NAME = os.environ.get("DATABASE_NAME", "corning")
 
 
 
@@ -45,7 +45,7 @@ QR_PIC = os.environ.get("QR_PIC", "https://t.me/filtered_team/6")
 
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b></b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>@DD_FREE_DISHH</b>")
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
 PICS = (os.environ.get("PICS", "https://envs.sh/4Iq.jpg https://envs.sh/4IW.jpg https://envs.sh/4IB.jpg https://envs.sh/4In.jpg")).split() #Required
@@ -84,13 +84,13 @@ PRICE1 = os.environ.get("PRICE1", "40 rs")
 PRICE2 = os.environ.get("PRICE2", "80 rs")
 
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "160 rs")
+PRICE3 = os.environ.get("PRICE3", "240 rs")
 
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "280 rs")
+PRICE4 = os.environ.get("PRICE4", "480 rs")
 
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "550 rs")
+PRICE5 = os.environ.get("PRICE5", "960 rs")
 
 
 #===================(END)========================#
