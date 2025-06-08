@@ -21,7 +21,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002213113260"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7645440087"))
 
 #Port
-PORT = os.environ.get("PORT", "6547")
+PORT = os.environ.get("PORT", "6548")
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sunitverma080:mg0Pd4Pdf0UD0Ou8@merabot1.dcduprk.mongodb.net/?retryWrites=true&w=majority&appName=merabot1")
 DB_NAME = os.environ.get("DATABASE_NAME", "corning")
