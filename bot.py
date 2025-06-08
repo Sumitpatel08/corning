@@ -1,7 +1,7 @@
 #Javpostr | @rohit_1888 on Tg
 import asyncio
 from aiohttp import web
-from plugins import web_server
+#from plugins import web_server
 
 import pyromod.listen
 from pyrogram import Client
@@ -24,6 +24,14 @@ def get_indian_time():
     return datetime.now(ist)
 
 
+from aiohttp import web
+from .route import routes
+
+
+async def web_server():
+    web_app = web.Application(client_max_size=30000000)
+    web_app.add_routes(routes)
+    return web_app
 
 class Bot(Client):
     def __init__(self):
