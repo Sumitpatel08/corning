@@ -84,7 +84,7 @@ async def start_command(client: Client, message: Message):
             await db.update_verify_status(id, is_verified=True, verified_time=time.time())
             if verify_status["link"] == "":
                 await message.reply(
-                    "Your token has been successfully verified and is valid for {get_exp_time(VERIFY_EXPIRE)}.",
+                    "Your token has been successfully verified and is valid for {get_exp_time(VERIFY_EXPIRE)}. Buy premium .\nTo buy, contact @provider_og",
                     reply_markup=PREMIUM_BUTTON,
                     protect_content=False,
                     quote=True
@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
         elif string.startswith("premium"):
             if not is_premium:
                 return await message.reply(
-                    "Buy premium to access this content.\nTo buy, contact @rohit_1888",
+                    "Buy premium to access this content.\nTo buy, contact @provider_og",
                     reply_markup=PREMIUM_BUTTON2
                 )
 
