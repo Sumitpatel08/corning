@@ -1,7 +1,7 @@
 #Javpostr | @rohit_1888 on Tg
 import asyncio
 from aiohttp import web
-from Plugins import web_server
+from plugins import web_server
 
 import pyromod.listen
 from pyrogram import Client
